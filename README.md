@@ -12,7 +12,9 @@ DOI: https://doi.org/10.1515/jiip-2020-0102
 Size of the 3D mesh used in Paper 1:
 
 nx = 40;  // nr. of nodes in x  direction
+
 ny = 42;  //  nr. of nodes in y  direction
+
 nz = 26; // nr. of nodes in z  direction
 
 Size of data:
@@ -133,6 +135,7 @@ Finally, all created data files  *.dat needed for C++/PETSc computations will be
 
 
 imagSigmaFEM.dat
+
 realSigmaFEM.dat
 d1imagFEM.dat
 d1realFEM.dat
