@@ -115,18 +115,19 @@ is used to produce data for C++/PETSc AFEM computations.
 Transposed Kernel has size  43680 x 256: 
 
 realKernelFEM.dat
+
 imagKernelFEM.dat
 
 3_2: Save real and imag parts of the right hand side:
 
 d1realFEM.dat
-d1imagFEM.dat
 
+d1imagFEM.dat
 
 3_3: Save real and imag parts of the diagonal   matrix Sigma:
 
-
 realSigmaFEM.dat
+
 imagSigmaFEM.dat
 
 
@@ -137,14 +138,23 @@ Finally, all created data files  *.dat needed for C++/PETSc computations will be
 imagSigmaFEM.dat
 
 realSigmaFEM.dat
+
 d1imagFEM.dat
+
 d1realFEM.dat
+
 imagKernelFEM.dat
+
 realKernelFEM.dat
+
 GeoFEM.dat
+
 imagAtd.dat
+
 realAtd.dat
+
 imagSolFEM.dat
+
 realSolFEM.dat
 
 To know how to   print produced  3D data in *.dat files  into inp-files and visualize them in paraview
