@@ -1,21 +1,23 @@
 # MicrowaveHyperthermia_Matlab2020
 Here is description of Matlab code used for   generation of data for C++/PETSc AFEM code  located in
 
+https://github.com/larisa70/MicrowaveHyperthermiaVIE
 
 as well as for least squares reconstructions  reported in the paper  
 
 [Paper 1]  M. G. Aram, L. Beilina, H. Dobsicek Trefna, Microwave Thermometry with Potential Application in Non-invasive Monitoring of Hyperthermia, Journal of Inverse and Ill-posed problems, 2020 
-https://doi.org/10.1515/jiip-2020-0102
 
+DOI: https://doi.org/10.1515/jiip-2020-0102
 
-% size of the 3D mesh used in Paper 1:
-nx = 40; %  nr. of nodes in x  direction
-ny = 42; %  nr. of nodes in y  direction
-nz = 26; %  nr. of nodes in z  direction
+Size of the 3D mesh used in Paper 1:
+
+nx = 40;  // nr. of nodes in x  direction
+ny = 42;  //  nr. of nodes in y  direction
+nz = 26; // nr. of nodes in z  direction
 
 Size of data:
 
-40*42*26 = 43680
+40*42*26 = 43680  nodes in the mesh.
 
 Size of the kernel matrix for 3D comp. (for 16 antennas):
 
@@ -127,29 +129,25 @@ imagSigmaFEM.dat
 
 
 
-Finally, all created data files needed for C++/PETSc computations will be :
+Finally, all created data files  *.dat needed for C++/PETSc computations will be :
 
-/TimeSteps_Images$ ls -l -t *.dat
 
--rw-r----- 1 larisa larisa       512 Mar  5 17:08 imagSigmaFEM.dat
--rw-r----- 1 larisa larisa      3328 Mar  5 17:08 realSigmaFEM.dat
--rw-r----- 1 larisa larisa      3447 Mar  5 17:08 d1imagFEM.dat
--rw-r----- 1 larisa larisa      3484 Mar  5 17:08 d1realFEM.dat
--rw-r----- 1 larisa larisa 151590441 Mar  5 17:08 imagKernelFEM.dat
--rw-r----- 1 larisa larisa 150155538 Mar  5 17:08 realKernelFEM.dat
--rw-r----- 1 larisa larisa     87360 Mar  5 16:41 GeoFEM.dat
--rw-r----- 1 larisa larisa    579912 Mar  5 16:41 imagAtd.dat
--rw-r----- 1 larisa larisa    596188 Mar  5 16:41 realAtd.dat
--rw-r----- 1 larisa larisa    579912 Mar  5 16:41 imagSolFEM.dat
--rw-r----- 1 larisa larisa    596188 Mar  5 16:41 realSolFEM.dat
+imagSigmaFEM.dat
+realSigmaFEM.dat
+d1imagFEM.dat
+d1realFEM.dat
+imagKernelFEM.dat
+realKernelFEM.dat
+GeoFEM.dat
+imagAtd.dat
+realAtd.dat
+imagSolFEM.dat
+realSolFEM.dat
 
-To know how to   print produced  3D data in *.dat files  into inp-files  go to another Github directory
+To know how to   print produced  3D data in *.dat files  into inp-files and visualize them in paraview
+go to another Github directory
 
 https://github.com/larisa70/MicrowaveHyperthermiaVIE
 
 and read instructions there.
-
-
-
-Visualize then  all   obtained *.inp  files in paraview.
 
