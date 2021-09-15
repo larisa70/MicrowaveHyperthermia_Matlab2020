@@ -134,11 +134,37 @@ imagSigmaFEM.dat
 
 Finally, all created data files  *.dat needed for C++/PETSc computations  for all 5 time slots will be :
 
-d1imagFEM.dat  imagAtd3.dat	  imagSigmaFEM.dat  imagSolFEM5.dat  realAtd4.dat	realSolFEM1.dat  realSolFEM.dat
-d1realFEM.dat  imagAtd4.dat	  imagSolFEM1.dat   imagSolFEM.dat   realAtd5.dat	realSolFEM2.dat
-GeoFEM.dat     imagAtd5.dat	  imagSolFEM2.dat   realAtd1.dat     realAtd.dat	realSolFEM3.dat
-imagAtd1.dat   imagAtd.dat	  imagSolFEM3.dat   realAtd2.dat     realKernelFEM.dat	realSolFEM4.dat
-imagAtd2.dat   imagKernelFEM.dat  imagSolFEM4.dat   realAtd3.dat     realSigmaFEM.dat	realSolFEM5.dat
+d1imagFEM.dat 
+imagAtd3.dat
+imagSigmaFEM.dat 
+imagSolFEM5.dat 
+realAtd4.dat	
+realSolFEM1.dat
+realSolFEM.dat
+d1realFEM.dat 
+imagAtd4.dat	  
+imagSolFEM1.dat
+imagSolFEM.dat 
+realAtd5.dat
+realSolFEM2.dat
+GeoFEM.dat 
+imagAtd5.dat	 
+imagSolFEM2.dat 
+realAtd1.dat 
+realAtd.dat	
+realSolFEM3.dat
+imagAtd1.dat 
+imagAtd.dat	
+imagSolFEM3.dat
+realAtd2.dat 
+realKernelFEM.dat
+realSolFEM4.dat
+imagAtd2.dat 
+imagKernelFEM.dat
+imagSolFEM4.dat
+realAtd3.dat 
+realSigmaFEM.dat	
+realSolFEM5.dat
 
 
 To know how to   print produced  3D data in *.dat files  into inp-files and visualize them in paraview
